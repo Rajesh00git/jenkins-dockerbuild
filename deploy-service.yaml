@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: 396153768758.dkr.ecr.ap-south-1.amazonaws.com/docker-jenkins:latest # Image that will be used to containers in the cluster
+          image: 396153768758.dkr.ecr.ap-south-1.amazonaws.com/cluster:latest # Image that will be used to containers in the cluster
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 80 # The port that the container is running on in the cluster
